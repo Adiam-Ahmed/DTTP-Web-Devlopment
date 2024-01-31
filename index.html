@@ -4,24 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dttp Assignment</title>
+    <link rel="stylesheet"type="text/css" href="css/contact_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&display=swap" rel="stylesheet">
+    <title>Adiam Portoflio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: #163020;
-            color: #304D30;
+            background-color: black;
         }
 
-        header,
         main,
         footer {
             margin: 20px;
             padding: 20px;
             border: 1px solid #ddd;
-            background-color: #EEF0E5;
+            background-color: whitesmoke
         }
 
         main {
@@ -34,18 +36,18 @@
             color: #304D30;
         }
 
-        h1,
         h5 {
             margin: 0;
             color: #163020;
         }
 
         h2 {
-            color: #B6C4B6;
+            font-size: larger;
         }
 
         p {
             margin-bottom: 15px;
+            color: black;
         }
 
         ul {
@@ -58,14 +60,11 @@
         }
 
         a {
-            color: #163020;
             text-decoration: none;
             font-weight: bold;
+            color: #eee;
         }
 
-        a:hover {
-            color: #B6C4B6;
-        }
 
         #about-me {
             background-color: #B6C4B6;
@@ -98,19 +97,22 @@
             background-color: #163020; /* Button color */
             color: #ffffff; 
             border-radius: 5px;
-            transition: background-color 0.3s;
         }
 
         .bio:hover {
             background-color: #301616; /* Button color on hover */
         }
+
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Welcome to</h1>
-        <p>Adiam DTTP Web Development Assignment</p>
+        <h1><a href="./index.html">Adiam Portfolio</a></h1>
+        <div class="nav-links">
+            <h1><a href="./contact-form.html">Contact</a></h1>
+            <h1><a href="./html-bio-with-css.html">About</a></h1>
+        </div>
     </header>
 
     <main>
@@ -120,29 +122,29 @@
             <li>
                 <b>Bash/Terminal Commands</b>
                 <p>Learned about the basic commands for navigating directories in a terminal or Git Bash window.</p>
-                <img src="./BasicCommandline.png" alt="Bash/Terminal Commands">
+                <img src="./css/assets/BasicCommandline.png" alt="Bash/Terminal Commands">
             </li>
             <li>
                 <b>SSH KEYS</b>
                 <p>An SSH key, or Secure Shell key, is a pair of cryptographic keys used for secure connections to a server, typically over the SSH protocol.</p>
-                <img src="./SSHKEY.jpg" alt="SSH key">
+                <img src="./css/assets/SSHKEY.jpg" alt="SSH key">
             </li>
             <li>
                 <b>GITHUB</b>
                 <p>GitHub is a web-based platform for version control and collaboration using Git. It's widely used in the software development community.</p>
-                <img src="./gitcheatsheet.jpg" alt="GitHub">
+                <img src="./css/assets/gitcheatsheet.jpg" alt="GitHub cheatsheet">
             </li>
             <li>
                 <b>HTML</b>
                 <p>HTML, or HyperText Markup Language, is a standard markup language used to create and design the structure of a web page.</p>
-                <img src="./Html.jpg" alt="HTML">
-                <a href="https://websitesetup.org/wp-content/uploads/2019/10/WSU-HTML-Cheat-Sheet.pdf" target="_blank">Click Here for HTML cheatsheet</a>
+                <img src="./css/assets/Html.jpg" alt="HTML cheatsheet">
+                <a style="color: #163020;" href="https://websitesetup.org/wp-content/uploads/2019/10/WSU-HTML-Cheat-Sheet.pdf" target="_blank">Click Here for HTML cheatsheet</a>
             </li>
             <li>
                 <b>CSS</b>
                 <p>CSS, or Cascading Style Sheets, is a style sheet language used to describe the presentation and formatting of an HTML or XML document.</p>
-                <img src="./css.jpg" alt="CSS">
-                <a href="https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf" target="_blank">Click Here for CSS cheatsheet</a>
+                <img src="./css/assets/css.jpg" alt="CSS cheatsheet">
+                <a style="color: #163020;" href="https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf" target="_blank">Click Here for CSS cheatsheet</a>
             </li>
         </ul>
         <div id="about-me">
